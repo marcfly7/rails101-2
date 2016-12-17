@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'coffee-script-source', '= 1.12.2'
+gem 'coffee-script-source', '= 1.11.1'
 
 gem "bootstrap-sass"
 group :development, :test do
