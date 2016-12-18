@@ -1,0 +1,13 @@
+<div class="col-md-4 col-md-offset-4">
+    <h2>编辑发表的文章</h2>
+    <hr>
+    <%= form_for @post do |p| %>
+    文章内容
+    <br>
+    <%= p.text_area :content %>
+    <br>
+
+    <%= p.submit "Submit", :disable_with => 'Submiting...' %>
+    <% end %>
+
+</div>
